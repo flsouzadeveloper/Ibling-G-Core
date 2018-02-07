@@ -1,0 +1,226 @@
+header {
+    position: absolute;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+    background-color: #1F2631;
+}
+
+    footer p {
+        margin: 17px 0 10px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 15px;
+}
+
+article {
+    border: none;
+}
+
+.bg_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 100;
+    background-size: cover;
+}
+
+.gray {
+    background-color: #D2D2D2;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.red {
+    background: radial-gradient(ellipse at center, #FC6145 0%, #A92810 100%)
+}
+
+.yellow {
+    background: radial-gradient(#FDE189, #FBC823 90%);
+}
+
+.green {
+    background: radial-gradient(#C4E0D4, #017945 90%);
+}
+
+.blue {
+    background: radial-gradient(#D2E7EE, #01789D 90%);
+}
+
+.light-blue {
+    background-color: #49C5B6;
+}
+
+.pink {
+    background-color: #F47E6F;
+}
+
+.green-water {
+    background: radial-gradient(#AFEBEB, #00BDBD 90%);
+}
+
+.black {
+    background-color: #1E1E1E;
+}
+
+.spacer {
+    position: relative;
+    margin-top: 170px;
+    min-height: 500px;
+}
+
+    .spacer p {
+        font-size: 20px;
+        margin-top: 25px;
+        color: #fff;
+    }
+
+    .spacer h1 {
+        text-align: center;
+    }
+
+.panel {
+    width: 100%;
+    min-height: 985px;
+    z-index: 0;
+    margin-bottom: 0 !important;
+    border: none;
+    border-radius: 0;
+    position: relative;
+}
+
+.exp {
+    margin-bottom: 50px;
+}
+
+.experiencias {
+    margin-top: 30px;
+    min-height: 185px;
+}
+
+    .experiencias .ano {
+        width: 140px;
+        height: 140px;
+        padding-top: 60px;
+        text-align: center;
+        background: radial-gradient(#fff, #F5F5F5 90%);
+        margin: 0 auto;
+        color: #252526;
+        position: relative;
+        top: 15px;
+        font-weight: bold;
+    }
+
+    .experiencias p {
+        font-size: 18px;
+        margin-top: 25px;
+        color: #FAFAFA;
+    }
+
+.experiencias-descricao {
+    min-height: 165px;
+}
+
+    .experiencias-descricao p {
+        color: #fff;
+        border-bottom: 0.5px solid #fff;
+        padding-bottom: 10px;
+        font-family: 'Oswald' Important;
+    }
+
+    .experiencias-descricao h3 {
+        font-style: oblique;
+        text-decoration: underline;
+        margin-top: 35px;
+        color: #1F2631;
+    }
+
+    .experiencias-descricao h4 {
+        color: #1F2631;
+    }
+
+.portfolio {
+    margin-top: 20px;
+    min-height: 185px;
+}
+
+    .portfolio h4 {
+        color: #fff;
+        margin-top: 40px;
+    }
+
+.contato label {
+    color: #fff;
+}
+
+.noresize {
+    resize: none;
+}
+
+.sobre-img img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hideme {
+    opacity: 0;
+}
+
+.portfolio-image {
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    padding: 10px;
+}
+
+.redes-sociais {
+    margin-top: 30px;
+}
+
+    .redes-sociais h4, h2 {
+        color: #fff;
+    }
+
+#fb-root {
+    display: none;
+}
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+
+.frame_powtoon {
+    border: 1px solid rgba(0,0,0,0.4);
+    position: relative;
+    top: -55px;
+}
+
+.facebook-field {
+    top:45px;
+    height:580px;
+}
+
+    .facebook-field p {
+        font-family: 'Century Gothic' !important;
+        font-size: 22px;
+        font-style: italic;
+    }
+  
+.carousel{
+    position: relative;
+    top: 220px;
+}
